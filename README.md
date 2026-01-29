@@ -13,10 +13,10 @@ and frontend–backend interaction.
 
 ## Tech Stack
 
-**Frontend:** React, Vite, JavaScript, CSS  
-**Backend:** Node.js, Express  
-**Database:** PostgreSQL  
-**Other:** dotenv, pg
+- **Frontend:** React, Vite, JavaScript, CSS  
+- **Backend:** Node.js, Express  
+- **Database:** PostgreSQL  
+- **Other:** dotenv, pg
 
 ## API Endpoints
 
@@ -37,14 +37,15 @@ and frontend–backend interaction.
 
 ### Backend
 
-```bash
+
 cd backend
 npm install
 npm run dev
-Create .env file in backend folder:
 
+Create .env file in backend folder:
 PORT=5000
 DATABASE_URL=postgresql://username:password@localhost:5432/task_manager
+
 Backend runs on:
 http://localhost:5000
 
@@ -52,5 +53,6 @@ Frontend
 cd frontend
 npm install
 npm run dev
+
 Frontend runs on:
 http://localhost:5173
