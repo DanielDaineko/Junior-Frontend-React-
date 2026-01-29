@@ -55,7 +55,7 @@ fullstack-task-manager/
 │ └── package.json
 │
 └── README.md
-
+```
 ## How to run locally
 
 ### Backend
