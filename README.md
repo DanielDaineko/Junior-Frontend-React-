@@ -56,6 +56,8 @@ fullstack-task-manager/
 │
 └── README.md
 ```
+---
+
 ## How to run locally
 
 ### Backend
@@ -72,6 +74,7 @@ DATABASE_URL=postgresql://username:password@localhost:5432/task_manager
 Backend runs on:
 http://localhost:5000
 ```
+---
 
 ### Frontend
 
@@ -83,6 +86,7 @@ npm run dev
 Frontend runs on:
 http://localhost:5173
 ```
+---
 
 ## API Endpoints
 
@@ -91,6 +95,7 @@ http://localhost:5173
 - PATCH `/api/tasks/:id` – toggle task completion  
 - DELETE `/api/tasks/:id` – delete a task  
 
+---
 ## What I Practiced
 
 - React hooks (`useState`, `useEffect`)
@@ -98,3 +103,4 @@ http://localhost:5173
 - Express server setup
 - PostgreSQL database connection
 - Fullstack project structure
+---
