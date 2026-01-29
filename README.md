@@ -1,109 +1,56 @@
-# Fullstack Task Manager
+# Fullstack Task Manager (React + Node.js)
 
-A simple **fullstack task manager** built with **React**, **Node.js**, and **PostgreSQL**.  
-The project demonstrates basic CRUD operations and frontend–backend interaction.
+A simple fullstack task manager application that demonstrates basic CRUD operations
+and frontend–backend interaction.
 
----
+## What was done
 
-## 🔹 Features
+- Implemented task creation, completion toggle and deletion
+- Connected React frontend to REST API
+- Built backend with Express and PostgreSQL
+- Handled loading and error states
+- Created a clean and responsive UI
 
-- Add new tasks
-- Mark tasks as completed
-- Delete tasks
-- Fetch tasks from REST API
-- Responsive UI
+## Tech Stack
 
----
+**Frontend:** React, Vite, JavaScript, CSS  
+**Backend:** Node.js, Express  
+**Database:** PostgreSQL  
+**Other:** dotenv, pg
 
-## 🔹 Tech Stack
+## API Endpoints
 
-**Frontend**
-- React
-- Vite
-- JavaScript
-- CSS
+- GET `/api/tasks` – get all tasks  
+- POST `/api/tasks` – create a new task  
+- PATCH `/api/tasks/:id` – toggle task completion  
+- DELETE `/api/tasks/:id` – delete a task  
 
-**Backend**
-- Node.js
-- Express
-- PostgreSQL
-- pg
-- dotenv
+## What I Practiced
 
----
+- React hooks (`useState`, `useEffect`)
+- REST API integration
+- Express server setup
+- PostgreSQL database connection
+- Fullstack project structure
 
-## 🔹 Project Structure
+## How to run locally
 
-fullstack-task-manager/
-│
-├── backend/
-│ ├── server.js
-│ ├── db.js
-│ ├── package.json
-│ └── .env
-│
-├── frontend/
-│ ├── src/
-│ │ ├── App.jsx
-│ │ ├── App.css
-│ │ └── main.jsx
-│ ├── index.html
-│ ├── vite.config.js
-│ └── package.json
-│
-└── README.md
-
----
-
-## 🔹 How to Run Locally
-
-## 🔹 Backend
+### Backend
 
 ```bash
 cd backend
 npm install
 npm run dev
-
----
-
-## 🔹 Create .env file:
+Create .env file in backend folder:
 
 PORT=5000
 DATABASE_URL=postgresql://username:password@localhost:5432/task_manager
+Backend runs on:
+http://localhost:5000
 
----
-
-## 🔹 Frontend
-
+Frontend
 cd frontend
 npm install
 npm run dev
-
----
-
-## 🔹 Frontend runs
-
+Frontend runs on:
 http://localhost:5173
-
-## 🔹 Backend runs
-
-http://localhost:5000
-
----
-
-## 🔹 API Endpoints
-
-- GET /api/tasks – get all tasks
-- POST /api/tasks – create task
-- PATCH /api/tasks/:id – toggle task
-- DELETE /api/tasks/:id – delete task
-
----
-
-## 🔹 What I Practiced
-
-- React hooks (useState, useEffect)
-- REST API integration
-- Express server setup
-- PostgreSQL connection
-- Fullstack project structure
