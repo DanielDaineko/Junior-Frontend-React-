@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #050b16;
+  color: white;
+}
+
+/* Центрирование */
+.page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+/* Карточка по центру + шире */
+.card {
+  width: 100%;
+  max-width: 600px;
+  background: rgba(255, 255, 255, 0.07);
+  padding: 28px;
+  border-radius: 18px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(10px);
+}
+
+/* Заголовок */
+h1 {
+  font-size: 32px;
+  margin: 0 0 20px;
+}
+
+/* Форма */
+.form {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 12px 14px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+
+button {
+  padding: 12px 18px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  background: #00c853;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #00a844;
+}
+
+/* Список */
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+
+  padding: 14px;
+  margin-bottom: 12px;
+
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+  font-size: 18px; /* ✅ крупнее текст */
+}
+
+/* done */
+.done span {
+  text-decoration: line-through;
+  opacity: 0.55;
+}
+
+/* чекбокс + текст */
+label {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+}
+
+/* Кнопка удаления */
+.delete {
+  background: #ff5252;
+  padding: 8px 14px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.delete:hover {
+  background: #d10000;
+}
