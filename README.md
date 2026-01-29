@@ -36,6 +36,7 @@ This project demonstrates basic CRUD operations, REST API integration, and moder
 
 ## Project Structure
 
+```text
 fullstack-task-manager/
 │
 ├── backend/
