@@ -48,8 +48,11 @@ DATABASE_URL=postgresql://username:password@localhost:5432/task_manager
 
 Backend runs on:
 http://localhost:5000
+```
 
-Frontend
+### Frontend
+
+```bash
 cd frontend
 npm install
 npm run dev
