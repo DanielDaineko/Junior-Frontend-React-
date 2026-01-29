@@ -37,7 +37,7 @@ and frontend–backend interaction.
 
 ### Backend
 
-
+```bash
 cd backend
 npm install
 npm run dev
